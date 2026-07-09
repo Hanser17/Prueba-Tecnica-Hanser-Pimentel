@@ -28,7 +28,7 @@ SRC
 │   ├── Enumeraciones
 │   ├── Reglas de negocio
 │   ├── Approval Engine
-│   └── Objetos de dominio
+│   └── ResultsWrapper
 │
 ├── Services
 │   ├── API ASP.NET Core
