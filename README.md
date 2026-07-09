@@ -276,6 +276,6 @@ dotnet test IntegrationTests
 
 # Autor
 
-Hansel Pimentel
+Hanser Pimentel
 
 Software Developer | .NET Backend Developer
