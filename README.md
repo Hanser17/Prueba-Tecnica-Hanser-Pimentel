@@ -40,7 +40,7 @@ SRC
 │   └── Pruebas unitarias del dominio
 │
 └── IntegrationTests
-    └── Pruebas de integración utilizando TestServer y WebApplicationFactory.
+    └── Pruebas de integración utilizando  WebApplicationFactory.
 ```
 
 ---
