@@ -11,7 +11,7 @@ namespace ApplicationLayer.ApplicationExtentionMethods
     {
         public static void AddApplicationDependensies( this IServiceCollection services)
         {
-            services.AddScoped<RulesExecuter>();
+            services.AddScoped<IRuleExecuter,RulesExecuter>();
             services.AddScoped<IRequestResults, BudgetExceededRule>();
             services.AddScoped<IRequestResults, SeniorEmployeeRule>();
             services.AddScoped<IRequestResults, DepartmentRule>();

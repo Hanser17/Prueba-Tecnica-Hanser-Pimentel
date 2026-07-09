@@ -4,7 +4,7 @@ using DomainLayer.ResultsWrapper;
 
 namespace DomainLayer.PurchaseRules
 {
-    public class RulesExecuter
+    public class RulesExecuter: IRuleExecuter
     {
         private readonly IEnumerable<IRequestResults> _rules;
         public RulesExecuter(IEnumerable<IRequestResults> rules)

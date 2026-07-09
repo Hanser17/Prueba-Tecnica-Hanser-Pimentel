@@ -13,8 +13,8 @@ namespace ApplicationLayer.Services
 {
     public class PurshasesServices : IPurshasesServices
     {
-        private readonly RulesExecuter _rulesExecuter;
-        public PurshasesServices(RulesExecuter rulesExecuter)
+        private readonly IRuleExecuter _rulesExecuter;
+        public PurshasesServices(IRuleExecuter rulesExecuter)
         {
             _rulesExecuter = rulesExecuter;
         }
