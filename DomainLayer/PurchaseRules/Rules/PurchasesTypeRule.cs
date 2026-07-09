@@ -18,7 +18,7 @@ namespace DomainLayer.PurchaseRules.Rules
 
         public bool Rule(PurchaseRequest purchaseRequest)
         {
-            return purchaseRequest.PurchaseType.ToString().Equals("EQUIPMENT", StringComparison.CurrentCultureIgnoreCase);
+            return purchaseRequest.PurchaseType.ToString().Equals("EQUIPMENT", StringComparison.CurrentCultureIgnoreCase) && purchaseRequest.Amount > 3000;
         }
     }
 }

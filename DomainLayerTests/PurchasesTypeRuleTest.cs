@@ -18,7 +18,7 @@ namespace DomainLayerTests
             var rule = new PurchasesTypeRule();
 
             var request = new PurchaseRequest(
-                amount: 1000,
+                amount: 4000,
                 department: Department.Technology,
                 employeeSeniority: 5,
                 purchaseType: PurchaseType.Equipment,
